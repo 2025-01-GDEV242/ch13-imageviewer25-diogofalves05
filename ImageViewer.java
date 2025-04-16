@@ -260,6 +260,7 @@ public class ImageViewer
         filterList.add(new BlueChannelFilter("Blue Channel"));
         filterList.add(new RedTintFilter("Red Tint"));
         filterList.add(new GreenTintFilter("Green Tint"));
+        filterList.add(new BlueTintFilter("Blue Tint"));
         return filterList;
     }
     
