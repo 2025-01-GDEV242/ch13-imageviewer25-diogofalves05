@@ -264,6 +264,7 @@ public class ImageViewer
         filterList.add(new WarholFilter("Warhol Filter"));
         filterList.add(new FlippedWarholFilter("Flipped Warhol Filter"));
         filterList.add(new CheckerboardFilter("Checkerboard Filter"));
+        filterList.add(new VerticalSplitFilter("Vertical Split Filter"));
         return filterList;
     }
     
